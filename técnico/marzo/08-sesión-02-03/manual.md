@@ -6,6 +6,7 @@ Estilos de texto
 Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
 
 Estilos de texto
+
 Métodos abreviados de teclado	Ejemplo	Resultados
 Bold	** ** o __ __	Command+B (Mac) o Ctrl+B (Windows/Linux)	**This is bold text**	Esto es texto en negrita.
 Cursiva	* * o _ _     	Command+I (Mac) o CtrI+ (Windows/Linux)	_This text is italicized_	Este texto está en cursiva
