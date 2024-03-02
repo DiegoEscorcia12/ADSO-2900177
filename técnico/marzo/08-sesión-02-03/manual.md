@@ -7,14 +7,15 @@ Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice 
 
 #  Estilos de texto
 
- stilo	Sintaxis	Métodos abreviados de teclado	Ejemplo	Resultados
-Bold	** ** o __ __	Command+B (Mac) o Ctrl+B (Windows/Linux)	**This is bold text**	Esto es texto en negrita.
-Cursiva	* * o _ _     	Command+I (Mac) o CtrI+ (Windows/Linux)	_This text is italicized_	Este texto está en cursiva
-Tachado	~~ ~~	Ninguno	~~This was mistaken text~~	Este texto está equivocado
-Cursiva en negrita y anidada	** ** y _ _	Ninguno	**This text is _extremely_ important**	Este texto es extremadamente importante
-Todo en negrita y cursiva	*** ***	Ninguno	***All this text is important***	Todo este texto es importante
-Subscript	<sub> </sub>	Ninguno	This is a <sub>subscript</sub> text	Se trata de un texto de subíndice
-Superscript	<sup> </sup>	Ninguno	This is a <sup>superscript</sup> text	Se trata de un texto de superíndice
+ Estilos de texto
+Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
+# Entrecomillado de texto
+
+Puede entrecomillar texto con >.
+
+Text that is not a quote
+
+> Text that is a quote
 
 # Entrecomillado de texto
 Puede entrecomillar texto con >.
@@ -22,6 +23,38 @@ Puede entrecomillar texto con >.
 Text that is not a quote
 
 > Text that is a quote
+
+# Código de cita
+Puedes indicar un código o un comando dentro de un enunciado con comillas simples. El texto dentro de las comillas simples no será formateado. También puedes presionar el método abreviado de teclado Comando+E (Mac) o Ctrl+E (Windows o Linux) para insertar las comillas simples de bloque de código en una línea de Markdown.
+
+Use `git status` to list all new or modified files that haven't yet been committed.
+
+# Modelos de color compatibles
+
+En los problemas, las solicitudes de incorporación de cambios y los debates, puedes llamar a los colores dentro de una oración mediante comillas simples. Un modelo de color compatible dentro de las comillas simples mostrará una visualización del color.
+
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+# Vínculos
+
+Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ). También puede usar el método abreviado de teclado Command+K para crear un vínculo. Cuando haya seleccionado texto, puede pegar una dirección URL del Portapapeles para crear automáticamente un vínculo a partir de la selección.
+
+También puedes crear un hipervínculo de Markdown resaltando el texto y usando el método abreviado de teclado Comando+V. Si quieres reemplazar el texto por el vínculo, usa el método abreviado de teclado Comando+Mayús+V.
+
+This site was built using [GitHub Pages](https://pages.github.com/).
+
+Captura de pantalla de GitHub Markdown en la que se muestra cómo el texto entre corchetes, "GitHub Pages", aparece como un hipervínculo azul.
+
+# Imágenes
+
+Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. El texto alternativo es un texto corto equivalente a la información de la imagen. Luego, escribe el vínculo de la imagen entre paréntesis ().
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
+
+Captura de pantalla de un comentario en un problema de GitHub que muestra una imagen, agregada en Markdown, de un Octocat sonriendo y levantando un tentáculo.
+
+GitHub admite la inserción de imágenes en incidencias, solicitudes de incorporación de cambi
+
 
 
 
