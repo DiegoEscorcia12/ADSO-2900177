@@ -5,9 +5,9 @@ Al usar dos o más encabezados, GitHub genera automáticamente una tabla de cont
 Estilos de texto
 Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
 
-# A Estilos de texto
+#  Estilos de texto
 
-##  stilo	Sintaxis	Métodos abreviados de teclado	Ejemplo	Resultados
+ stilo	Sintaxis	Métodos abreviados de teclado	Ejemplo	Resultados
 Bold	** ** o __ __	Command+B (Mac) o Ctrl+B (Windows/Linux)	**This is bold text**	Esto es texto en negrita.
 Cursiva	* * o _ _     	Command+I (Mac) o CtrI+ (Windows/Linux)	_This text is italicized_	Este texto está en cursiva
 Tachado	~~ ~~	Ninguno	~~This was mistaken text~~	Este texto está equivocado
@@ -16,7 +16,12 @@ Todo en negrita y cursiva	*** ***	Ninguno	***All this text is important***	Todo 
 Subscript	<sub> </sub>	Ninguno	This is a <sub>subscript</sub> text	Se trata de un texto de subíndice
 Superscript	<sup> </sup>	Ninguno	This is a <sup>superscript</sup> text	Se trata de un texto de superíndice
 
+# Entrecomillado de texto
+Puede entrecomillar texto con >.
 
+Text that is not a quote
+
+> Text that is a quote
 
 
 
