@@ -55,6 +55,15 @@ Captura de pantalla de un comentario en un problema de GitHub que muestra una im
 
 GitHub admite la inserción de imágenes en incidencias, solicitudes de incorporación de cambi
 
+# Listas
+
+Puedes crear una lista sin ordenar. Para ello, coloca -, * o + antes de una o más líneas de texto.
+
+- George Washington
+* John Adams
++ Thomas Jefferson
+Captura de pantalla de GitHub Markdown en la que se muestra una lista con viñetas de los nombres de los tres primeros presidentes de Estados Unidos.
+
 
 
 
